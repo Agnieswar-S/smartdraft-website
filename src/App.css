@@ -1,0 +1,16 @@
+:root{
+  --text-color:black;
+  --secondary-color:rgb(233, 154, 42);
+  --bg-color:white;
+  --secondary-bg-color:rgb(207, 207, 207);
+}
+ 
+#root{
+  background: url("./assets/dw-bg-img.jpg") no-repeat center/cover fixed;
+  height: 100vh;
+}
+
+*{
+  margin:0;
+  padding: 0 ;
+}
