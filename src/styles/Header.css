@@ -44,9 +44,6 @@ header {
   display: none;
 }
 
-ul a.active {
-  color: var(--secondary-color);
-}
 
 .scrolled {
   background-color: var(--bg-color);
@@ -59,6 +56,11 @@ ul a.active {
 .scrolled .header-right a {
   color: var(--text-color);
 }
+
+.scrolled ul a.active {
+  color: var(--secondary-color);
+}
+
 
 @media (max-width :768px) {
   .header-mobile {
@@ -85,6 +87,11 @@ ul a.active {
     opacity: 0;
     pointer-events: none;
     transition: transform 0.6s ease;
+  }
+
+  .header-mobile .hamburger-menu {
+    border: 1px solid white;
+    padding: 0.5rem 0.7rem;
   }
 
   .header-mobile ul.active {

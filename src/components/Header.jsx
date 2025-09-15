@@ -72,7 +72,7 @@ export default function Header() {
       </nav>
 
       <nav className="header-mobile">
-        <span onClick={handleDropdown}>
+        <span onClick={handleDropdown} className="hamburger-menu">
           {isDropdown ? <CgClose /> : <GiHamburgerMenu />}
         </span>
           <ul className={isDropdown ? "active" : ""}>
